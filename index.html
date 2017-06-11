@@ -1,1 +1,28 @@
-Hello World, welcome to Carolyn's website.
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+</head>
+
+<body>
+	<center> <p class="title"> Hi, welcome to the random website generator! </p> </center> 
+	<button onclick='randomize()'>LETS GO!</button>
+<script>
+function randomize() {
+
+
+var website = ["https://www.amazon.com/Goats-Trees-Square-12x12-Multilingual/dp/1465040994/ref=pd_sbs_200_5?_encoding=UTF8&pd_rd_i=1465040994&pd_rd_r=AHCPH0KJE4B7WA6BXFFA&pd_rd_w=wjS73&pd_rd_wg=sb4gb&psc=1&refRID=AHCPH0KJE4B7WA6BXFFA", "https://www.amazon.com/dp/B01EKVI5OM?psc=1", "https://www.amazon.com/dp/B00Q3NOEPK?psc=1", "http://www.rrrgggbbb.com/", "http://hasthelargehadroncolliderdestroyedtheworldyet.com/", "http://chrismckenzie.com/", "http://cat-bounce.com/", "http://www.staggeringbeauty.com/", "http://heeeeeeeey.com/", "http://www.fallingfalling.com/", "http://koalastothemax.com/", "http://eelslap.com/", "http://ninjaflex.com/", "http://www.omfgdogs.com/", "http://www.sanger.dk/", "http://www.thinkgeek.com/interests/exclusives/?cpg=cj&ref=&CJURL=&AID=10812784&PID=4483946&CJID=2020139", "http://www.hackertyper.com/", "http://garfieldminusgarfield.net/","https://www.amazon.com/Farting-Animals-Coloring-Book/dp/1539486125/ref=pd_rhf_dp_s_cp_2?_encoding=UTF8&pd_rd_i=1539486125&pd_rd_r=Q220EME91RA99SDHH61S&pd_rd_w=gcac6&pd_rd_wg=54r52&psc=1&refRID=Q220EME91RA99SDHH61S"];
+
+
+var randomNumber = Math.floor(Math.random() * website.length);
+var link = website[randomNumber];
+window.open(link, '_blank');
+
+}
+
+
+
+</script>
+
+
+</body> 
+

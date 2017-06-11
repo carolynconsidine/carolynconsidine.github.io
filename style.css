@@ -1,0 +1,37 @@
+.title{
+
+	font-family: 'Pacifico';
+	font-size: 50px;
+
+}
+
+button{
+    height:150px; 
+    width:250px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:20%; 
+    left:50%;
+    border:none;
+    border-radius:5px;
+    font-family: 'Pacifico';
+	font-size: 30px;
+    background-color: #ff99cc; /*light pink*/
+   
+
+   
+
+
+}
+
+body{
+}
+
+button:focus{outline:0;}
+
+
+
+
+
+
+
